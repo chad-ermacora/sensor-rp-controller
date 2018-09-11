@@ -53,6 +53,7 @@ GPIO.setup(key2, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 GPIO.setup(key3, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 GPIO.setup(key4, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
+
 def get_system_info():
     cpu = CPUTemperature()
     frame_black = [0] * int((epd.width * epd.height / 8))
